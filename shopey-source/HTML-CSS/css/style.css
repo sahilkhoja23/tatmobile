@@ -281,10 +281,10 @@ input.fieldWithIcon {
 }
 .mainMenuOuterWrapper {
 	display: none;
-	margin-left: 24px;
-	margin-right: 24px;
+	/*margin-left: 24px;
+	margin-right: 24px;*/
 	z-index: 9999;
-	background-color: #e4755a;
+	background-color: #edecf1;
 }
 .mainMenuBottomDecoration {
 	margin-right: 24px;
@@ -1951,10 +1951,8 @@ input.fieldHasError, textarea.fieldHasError {
 	background-color: #e4755a;
 	height: 54px;
 	overflow: visible;
-/*
 	margin-left: 24px;
 	margin-right: 24px;
-*/
 }
 .footerWrapper a {
 	color: #fff;

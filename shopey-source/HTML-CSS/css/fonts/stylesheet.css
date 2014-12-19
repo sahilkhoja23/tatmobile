@@ -1,0 +1,35 @@
+/*
+ * Emigre web font kit 50816b380ce0c
+ * 
+ * These fonts are not shareware. 
+ * Use of these fonts requires the purchase 
+ * of a license from Emigre, www.emigre.com  
+ * Please contact sales@emigre.com
+ *
+ * To purchase a license to use this font go to:
+ * http://www.emigre.com/fontpage.php?PFilI.html
+ *
+ * © 2012 Emigre, Inc
+ */
+
+
+
+@font-face {
+    font-family: 'FilosofiaItalic';
+    src: url('filosita-071211002EmigreWebOnly.eot');
+    src: url('filosita-071211002EmigreWebOnly.eot?#iefix') format('embedded-opentype'),
+         url('filosita-071211002EmigreWebOnly.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FilosofiaRegular';
+    src: url('filosreg-071211001EmigreWebOnly.eot');
+    src: url('filosreg-071211001EmigreWebOnly.eot?#iefix') format('embedded-opentype'),
+         url('filosreg-071211001EmigreWebOnly.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

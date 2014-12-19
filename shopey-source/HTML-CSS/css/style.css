@@ -251,7 +251,7 @@ input.fieldWithIcon {
 	padding-right: 24px;
 	z-index: 9990;
 	height: 54px;
-	background-color: #e4755a;
+	background-color: #edecf1;
 }
 .accountButton {
 	float: left;
@@ -454,7 +454,7 @@ input.shoppingCartCheckoutButton {
 */
 .mainLogo {
 	width: 104px;
-	height: 30px;
+	height: 86px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 36px;
@@ -462,7 +462,7 @@ input.shoppingCartCheckoutButton {
 }
 .mainLogo > img {
 	width: 104px;
-	height: 30px;
+	height: 86px;
 }
 .shopSearchFormWrapper {
 	margin-bottom: 36px;

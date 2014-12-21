@@ -48,7 +48,7 @@ License: Commercial
 
 
 body {
-	background-color: #ede7db;
+	background-color: #edecf1;
 	font-family: "Filosofia", Georgia,serif;
 }
 p > a {
@@ -131,7 +131,7 @@ tr:hover > td {
 */
 }
 .pageContentWrapper {
-	background-color: #fff;
+	background-color: #edecf1;
 	padding-left: 24px;
 	padding-right: 24px;
 /*
@@ -151,6 +151,7 @@ tr:hover > td {
 }
 .blockTitle {
 	margin-bottom: 22px;
+	color: #703e89;
 }
 ::-webkit-input-placeholder {
 color:#999;
@@ -244,7 +245,7 @@ input.fieldWithIcon {
 	margin-left: 24px;
 	margin-right: 24px;
 */
-	background-color: #fff;
+	background-color: #edecf1;
 }
 .headerWrapper {
 	padding-left: 24px;
@@ -305,23 +306,24 @@ input.fieldWithIcon {
 	height: 36px;
 	margin-bottom: 12px;
 	list-style: none;
-	background-color: #fff;
+	background-color: #703e89;
 	border-radius: 6px;
 	padding-left: 12px;
+	text-align: center;
 }
 .mainMenuWrapper > li:last-child {
 	margin-bottom: 12px;
 }
 .mainMenuWrapper > li > a {
-	color: #666;
+	color: #FFFAF0;
 }
-.mainMenuWrapper > li > a:hover {
+.mainMenuWrapper li > a:hover {
 	text-decoration: none;
 }
 .mainMenuWrapper > li:hover > a {
 }
 .mainMenuWrapper > li.currentPage {
-	background-color: #333;
+	background-color: #636363;
 }
 .mainMenuWrapper > li.currentPage > a {
 	color: #fff;
@@ -981,8 +983,9 @@ input.advancedSearchButton {
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .singleProductPageWrapper {
 }
-.singleProductPageWrapper .pageTitle {
+.pageTitle {
 	margin-bottom: 27px;
+	color: #703e89;
 }
 .singleProductGalleryWrapper {
 }
@@ -1311,6 +1314,8 @@ input.checkoutCheckoutButton {
 	width: 100%;
 	height: auto;
 }
+
+
 .portfolioTwoFilterableWrapper .portfolioFilterableItemInfoWrapper {
 	background-color: #f9f9f9;
 	padding-top: 0px;
@@ -1408,6 +1413,7 @@ input.checkoutCheckoutButton {
 
 
 
+
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*//////////////////// Two Columns Portfolio CSS Rules Start                                                              */
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -1416,7 +1422,7 @@ input.checkoutCheckoutButton {
 .portfolioTwoWrapper {
 	margin-left: 24px;
 	margin-right: 24px;
-	background-color: #fff;
+	background-color: #edecf1;
 	padding-left: 24px;
 	padding-right: 24px;
 }
@@ -1424,7 +1430,23 @@ input.checkoutCheckoutButton {
 	float: left;
 	margin-right: 36px;
 	margin-bottom: 36px;
-	background-color: #fff;
+	background-color: #edecf1;
+}
+.portfolioTwoItemWrapperCenter
+{
+	width: 170px;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+}
+.portfolioThreeItemWrapper{
+
+	float: left;
+	margin-right: 24px;
+	margin-bottom: 24px;
+	background-color: #edecf1;
+
+
 }
 .portfolioTwoItemImageWrapper {
 }
@@ -1433,12 +1455,12 @@ input.checkoutCheckoutButton {
 .portfolioTwoItemImageWrapper img {
 	width: 100%;
 	height: auto;
-}
+	}
 .portfolioTwoItemInfoWrapper {
-	background-color: #f9f9f9;
+	background-color: #edecf1;
 	padding-top: 0px;
-	padding-left: 12px;
-	padding-right: 0px;
+	padding-left: 0px;
+	padding-right: 2px;
 	padding-bottom: 0px;
 	height: 36px;
 }
@@ -1448,9 +1470,11 @@ input.checkoutCheckoutButton {
 	height: 36px;
 	line-height: 36px;
 	padding-bottom: 0px;
+	text-align: center;
+	color:#703e89;
+	font-family: FilosofiaBold;
 }
 .portfolioTwoHoverDeco {
-}
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*//////////////////// Two Columns Portfolio CSS Rules End                                                                */
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -1488,7 +1512,7 @@ input.checkoutCheckoutButton {
 	float: left;
 	padding-left: 40px;
 	color: #666;
-	background: #f0f0f0 url(../images/skins/default/portfolioExpandButtonBg.png) left center no-repeat;
+	background: #f0f0f0 url(../images/skins/default/portfolioExpandButtonBg.png) left center no-repeat;  /*change this shit*/ 
 	padding-right: 12px;
 }
 .singleProjectDetailsButton {
@@ -1948,7 +1972,7 @@ input.fieldHasError, textarea.fieldHasError {
 .footerWrapper {
 	padding-left: 24px;
 	padding-right: 24px;
-	background-color: #e4755a;
+	background-color: #edecf1;
 	height: 54px;
 	overflow: visible;
 	margin-left: 24px;
@@ -1960,7 +1984,7 @@ input.fieldHasError, textarea.fieldHasError {
 }
 .footerWrapper > .copyright {
 	float: left;
-	color: #fff;
+	color: #703e89;
 	margin-top: 18px;
 }
 .footerLinksWrapper {

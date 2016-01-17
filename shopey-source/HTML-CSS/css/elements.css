@@ -532,6 +532,7 @@ blockquote {
 }
 .accordionButton .accordionButtonTitle {
 	float: left;
+	color: #636363;
 }
 .accordionButton:hover {
 	text-decoration: none;
@@ -546,9 +547,11 @@ blockquote {
 	padding: 12px;
 	border: 1px solid #f0f0f0;
 	margin-top: 27px;
+	color: #636363;
 }
 .accordionContentWrapper .accordionContent > *:last-child {
 	margin-bottom: 0px;
+	color: #636363;
 }
 .largeImage {
 	border: 3px solid #f0f0f0;
